@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.block {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.inner-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: auto;
+  width: 230px;
+}
+.profile-pic {
+  border-radius: 40px;
+  height: 80px;
+  margin-top: 10px;
+}
+.jessica {
+  color: aliceblue;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.london {
+  color: hsl(75, 94%, 57%);
+  margin-top: 10px;
+  font-size: 12px;
+}
+.front {
+  color: hsl(0, 0%, 61%);
+  font-size: 13px;
+  margin-top: 20px;
+}
+.GitHub {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  padding: 5px 50px;
+  border: none;
+  transition-duration: 0.4s;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: bold;
+}
+.GitHub:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+.Frontend {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px 50px;
+  border: none;
+  transition-duration: 0.4s;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: bold;
+}
+.Frontend:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+.Linked {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px 50px;
+  border: none;
+  transition-duration: 0.4s;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: bold;
+}
+.Linked:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+.Twitter {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px 50px;
+  border: none;
+  transition-duration: 0.4s;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: bold;
+}
+.Twitter:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+.Insta {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px 50px;
+  border: none;
+  transition-duration: 0.4s;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.Insta:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
