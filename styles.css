@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: black;
+  background-color: hsl(0, 0%, 8%);
 }
 .block {
   background-color: hsl(0, 0%, 12%);
@@ -11,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  scale: 110%;
 }
 .inner-block {
   display: flex;
@@ -22,96 +23,53 @@ body {
 }
 .profile-pic {
   border-radius: 40px;
-  height: 80px;
+  height: 60px;
   margin-top: 10px;
 }
 .jessica {
   color: aliceblue;
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 20px;
+  font-family: firstFont;
+  font-weight: normal;
 }
 .london {
   color: hsl(75, 94%, 57%);
-  margin-top: 10px;
-  font-size: 12px;
+  margin-top: 5px;
+  font-size: 10px;
+  font-family: firstFont;
+  font-weight: bold;
 }
 .front {
   color: hsl(0, 0%, 61%);
-  font-size: 13px;
+  font-size: 10px;
   margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: firstFont;
+  font-weight: 800;
 }
-.GitHub {
+.button{
   background-color: hsl(0, 0%, 20%);
   border-radius: 5px;
-  padding: 5px 50px;
+  padding:10px 50px;
   border: none;
-  transition-duration: 0.4s;
-  color: hsl(0, 0%, 100%);
-  font-size: 14px;
-  font-weight: bold;
-}
-.GitHub:hover {
-  background-color: hsl(75, 94%, 57%);
-  color: black;
-}
-.Frontend {
-  background-color: hsl(0, 0%, 20%);
-  border-radius: 5px;
-  margin-top: 10px;
-  padding: 5px 50px;
-  border: none;
-  transition-duration: 0.4s;
-  color: hsl(0, 0%, 100%);
-  font-size: 14px;
-  font-weight: bold;
-}
-.Frontend:hover {
-  background-color: hsl(75, 94%, 57%);
-  color: black;
-}
-.Linked {
-  background-color: hsl(0, 0%, 20%);
-  border-radius: 5px;
-  margin-top: 10px;
-  padding: 5px 50px;
-  border: none;
-  transition-duration: 0.4s;
-  color: hsl(0, 0%, 100%);
-  font-size: 14px;
-  font-weight: bold;
-}
-.Linked:hover {
-  background-color: hsl(75, 94%, 57%);
-  color: black;
-}
-.Twitter {
-  background-color: hsl(0, 0%, 20%);
-  border-radius: 5px;
-  margin-top: 10px;
-  padding: 5px 50px;
-  border: none;
-  transition-duration: 0.4s;
-  color: hsl(0, 0%, 100%);
-  font-size: 14px;
-  font-weight: bold;
-}
-.Twitter:hover {
-  background-color: hsl(75, 94%, 57%);
-  color: black;
-}
-.Insta {
-  background-color: hsl(0, 0%, 20%);
-  border-radius: 5px;
-  margin-top: 10px;
-  padding: 5px 50px;
-  border: none;
-  transition-duration: 0.4s;
-  color: hsl(0, 0%, 100%);
-  font-size: 14px;
-  font-weight: bold;
   margin-bottom: 10px;
+  transition-duration: 0.4s;
+  color: hsl(0, 0%, 100%);
+  font-size: 10px;
+  font-weight: 500;
+  font-family: firstFont;
+  width: 200px;
+  text-align: center;
+  font-family: firstFont;
 }
-.Insta:hover {
+.button:hover {
   background-color: hsl(75, 94%, 57%);
   color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+@font-face {
+  font-family: firstFont;
+  src: url(Inter-Regular.ttf);
 }
